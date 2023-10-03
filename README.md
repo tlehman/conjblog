@@ -1,6 +1,16 @@
-# conjblog
+# (conj blog)
 
-A Clojure library designed to ... well, that part is up to you.
+```clojure
+(def blog [])
+(conj blog "hello world!")
+["hello world!"]
+```
+
+A Clojure blogging framework.
+
+## Dependencies
+- [Clojure](https://clojure.org)
+- [Toucan (ORM)](https://github.com/metabase/toucan)
 
 ## Usage
 
@@ -8,7 +18,7 @@ FIXME
 
 ## License
 
-Copyright © 2023 FIXME
+Copyright © 2023 Tobi Lehman
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
