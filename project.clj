@@ -5,5 +5,6 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [org.postgresql/postgresql "42.3.1"]
+                 [ragtime "0.8.1"]
                  [toucan "1.18.0"]]
   :repl-options {:init-ns conjblog.core})
